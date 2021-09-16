@@ -9,3 +9,6 @@ services:
             - .:/code
         ports:
             - "80:80"
+        environment:
+            - DEBUG=${DEBUG}
+            - SECRET_KEY=${SECRET_KEY}

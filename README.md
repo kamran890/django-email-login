@@ -22,6 +22,17 @@ A sample project which takes email instead of username for login.
 
 `cd django-email-login`
 
+* Copy .env.example to new .env file
+
+`cp .env.example .env`
+
+* Open .env file and add env variables.
+
+```
+DEBUG=TRUE
+SECRET_KEY=SECRET_KEY
+```
+
 * Run shell script
 
 `./docker-deploy.sh`
